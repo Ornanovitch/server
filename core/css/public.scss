@@ -14,41 +14,6 @@
 		--footer-height: calc(3 * var(--default-line-height) + 3 * var(--default-grid-baseline));
 	}
 
-	.header-right {
-
-		#header-primary-action a {
-			color: var(--color-primary-element-text);
-		}
-
-		#header-secondary-action {
-			ul li {
-				min-width: 270px;
-			}
-			#header-actions-toggle {
-				background-color: transparent;
-				border-color: transparent;
-				filter: var(--background-invert-if-dark);
-
-				&:hover,
-				&:focus,
-				&:active {
-					opacity: 1;
-				}
-			}
-			#external-share-menu-item {
-				form {
-					display: flex;
-				}
-				.hidden {
-					display: none;
-				}
-				#save-button-confirm {
-					flex-grow: 0;
-				}
-			}
-		}
-	}
-
 	#content {
 		min-height: var(--body-height, calc(100% - var(--footer-height)));
 	}
